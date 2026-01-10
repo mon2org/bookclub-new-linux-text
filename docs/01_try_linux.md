@@ -1,7 +1,7 @@
 ---
 title: "第01章 Linuxを使ってみよう"
-date: ""
-draft: true
+date: 2025-01-10T22:00:00
+draft: false
 ---
 # 第01章 Linuxを使ってみよう
 
@@ -68,6 +68,21 @@ draft: true
   - shutdown コマンドを利用する。このコマンドはシステム全体に影響を及ぼすため、通常は**ルート（root）**と呼ばれる管理者権限を持つスーパーユーザーでしか実行できない。
   - サーバー環境では、シャットダウンはメンテナンスや障害対応など必要最小限の場面でしか行われない、非常に重大な操作であると強調されている。
   - 一般ユーザーが管理者権限でコマンドを実行する際には sudo コマンドが利用される（特にUbuntuなどのディストリビューションで一般的）。
+
+## コマンド
+```bash
+@imachange ➜ /workspaces/bookclub-new-linux-text/session01 (session/01) $ cat a.txt
+This is text
+@imachange ➜ /workspaces/bookclub-new-linux-text/session01 (session/01) $ cp a.txt b.txt
+@imachange ➜ /workspaces/bookclub-new-linux-text/session01 (session/01) $ ls -la
+total 16
+drwxrwxrwx+ 2 codespace codespace 4096 Jan 10 14:07 .
+drwxrwxrwx+ 5 codespace root      4096 Jan 10 14:06 ..
+-rw-rw-rw-  1 codespace codespace   13 Jan 10 14:06 a.txt
+-rw-rw-rw-  1 codespace codespace   13 Jan 10 14:07 b.txt
+@imachange ➜ /workspaces/bookclub-new-linux-text/session01 (session/01) $ cat b.txt
+This is text
+```
 
 ***
 [🔙 ](./README.md)
