@@ -115,9 +115,9 @@ $  ←プロンプトが変化
 * ターミナル: 本来は、コンピューターへの入出力（キーボード入力とディスプレイ表示）を行うための専用ハードウェアを指す。
 * ターミナルエミュレーター: 現在主流となっているのは、この物理的なターミナルをソフトウェアで擬似的に実現したものである。WindowsやmacOS上で動作するアプリケーションとして提供される。
   * 代表的なターミナルエミュレーター:
-    * Windows: Windows Terminal, PuTTY, Tera Term
-    * macOS: ターミナル, iTerm2
-    * Linux: GNOME 端末, Konsole
+  * Windows: Windows Terminal, PuTTY, Tera Term
+  * macOS: ターミナル, iTerm2
+  * Linux: GNOME 端末, Konsole
 
 #### シェルとの明確な違い
 ターミナルエミュレーターは、あくまで入出力のための「画面」を提供するソフトウェアである。
