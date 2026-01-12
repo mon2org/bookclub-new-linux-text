@@ -33,7 +33,7 @@ draft: true
 | 操作内容 | ショートカットキー | 説明 |
 |---|---|---|
 | カーソル前の1文字を削除 | <kbd>Backspace</kbd> または <kbd><kbd>Ctrl</kbd> + <kbd>H</kbd></kbd> | 一般的なバックスペース操作。|
-| カーソル位置の1文字を削除 | Delete または <kbd><kbd>Ctrl</kbd> + <kbd>D</kbd></kbd> | カーソル位置の文字を削除する。|
+| カーソル位置の1文字を削除 | <kbd>Delete</kbd> または <kbd><kbd>Ctrl</kbd> + <kbd>D</kbd></kbd> | カーソル位置の文字を削除する。|
 | カーソル前の1単語を削除 | <kbd><kbd>Ctrl</kbd> + <kbd>W</kbd></kbd> | 単語単位での後方削除。|
 
 1.3 カット＆ヤンク（ペースト）
