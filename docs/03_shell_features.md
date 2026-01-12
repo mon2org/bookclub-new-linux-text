@@ -70,8 +70,8 @@ Bashでは、ペースト操作を「ヤンク」と呼ぶ。
 
 | 操作内容 | ショートカットキー | 説明 |
 |---|---|---|
-| 1つ前の履歴へ移動 | Ctrl + P または ↑ (上矢印) | PreviousのP。|
-| 1つ先の履歴へ移動 | Ctrl + N または ↓ (下矢印) | NextのN。|
+| 1つ前の履歴へ移動 | <kbd><kbd>Ctrl</kbd> + <kbd>P</kbd></kbd> または <kbd>↑</kbd> (上矢印) | PreviousのP。|
+| 1つ先の履歴へ移動 | <kbd><kbd>Ctrl</kbd> + <kbd>N</kbd></kbd> または <kbd>↓</kbd> (下矢印) | NextのN。|
 
 #### インクリメンタル検索
 
